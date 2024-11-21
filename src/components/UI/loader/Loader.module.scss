@@ -1,0 +1,17 @@
+.loader {
+  width: 50px; /* Размер компонента */
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-top-color: teal; /* Цвет верхней части круга */
+  animation: spin 1s linear infinite; /* Анимация вращения */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
